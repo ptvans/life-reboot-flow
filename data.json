@@ -1,0 +1,414 @@
+{
+  "overview": {
+    "situation": "Complex relocation from Santa Cruz with multiple vehicles, storage locations, and financial constraints",
+    "currentLocation": "Petaluma hotel (until Jan 14)",
+    "targetLocation": "California (90%) + Michigan storage option",
+    "timeline": "Urgent - wisdom tooth Jan 23, hotel ends Jan 14",
+    "financialStatus": "Living on 0% APR loans and credit cards - out of money"
+  },
+  "vehicles": {
+    "keep": [
+      {
+        "name": "2023 Mercedes Sprinter Van",
+        "location": "Unknown",
+        "condition": "Running - needs insulation installation",
+        "towCapacity": "5,000 lbs",
+        "purpose": "Primary vehicle, mobile workspace",
+        "blockers": ["Needs insulation installed to make room for tools"]
+      },
+      {
+        "name": "2021 Husqvarna 701",
+        "location": "Unknown",
+        "condition": "Running",
+        "type": "Motorcycle",
+        "purpose": "Keep with me in California"
+      },
+      {
+        "name": "2000 Saab 9-3 Viggen",
+        "location": "Unknown",
+        "condition": "Running",
+        "purpose": "Keep with me in California"
+      },
+      {
+        "name": "1993 Geo Tracker",
+        "location": "Monte Rio (Steve's house)",
+        "condition": "Running",
+        "value": "$4,000",
+        "purpose": "Strong emotional attachment - keep long term",
+        "options": ["Keep at Steve's (wet storage concern)", "Move to Michigan"]
+      }
+    ],
+    "sell": [
+      {
+        "name": "2002 Silverado",
+        "location": "Monte Rio (Steve's house)",
+        "condition": "Dead battery, 9 body panels keyed",
+        "targetPrice": "$35,000",
+        "towCapacity": "10,000+ lbs",
+        "criticalRole": "Only vehicle that can tow loaded trailer",
+        "blockers": ["Dead battery", "Paint damage"],
+        "paintOptions": [
+          {
+            "option": "Full body shop repaint",
+            "cost": "$12,000",
+            "timeline": "Unknown",
+            "netProceeds": "$23,000"
+          },
+          {
+            "option": "Detailer paint reconditioning",
+            "cost": "Lower (need quote)",
+            "timeline": "Unknown",
+            "netProceeds": "TBD"
+          },
+          {
+            "option": "Sell as-is at discount",
+            "cost": "$0",
+            "timeline": "Immediate",
+            "estimatedPrice": "$20,000-$25,000"
+          }
+        ],
+        "notes": "Tools currently stored in bed, need to move before selling"
+      },
+      {
+        "name": "20-foot Enclosed Cargo Trailer",
+        "location": "Unknown",
+        "condition": "Good",
+        "purchasePrice": "$10,000",
+        "targetPrice": "$10,000",
+        "weight": "3,500 lbs",
+        "criticalRole": "Needed to transport vehicles and items to Michigan",
+        "notes": "Sell after using it for the move"
+      }
+    ],
+    "storage": [
+      {
+        "name": "2000 Saab (non-running)",
+        "location": "Santa Rosa storage - 20x10 unit",
+        "condition": "Not running",
+        "purpose": "Long-term project - store in Michigan",
+        "destination": "Michigan (Frank's vintage auto shop initially)"
+      }
+    ]
+  },
+  "storage": [
+    {
+      "location": "Santa Cruz",
+      "cost": "$350/month",
+      "size": "10x10",
+      "contents": "Some furniture",
+      "priority": "HIGHEST - Most expensive, empty ASAP"
+    },
+    {
+      "location": "Santa Rosa",
+      "cost": "$175/month (10x10) + unknown for 20x10",
+      "units": [
+        {
+          "size": "20x10",
+          "contents": "Non-running Saab, extra Saab parts, garage supplies"
+        },
+        {
+          "size": "10x10",
+          "contents": "Furniture and tools"
+        }
+      ],
+      "priority": "Medium"
+    },
+    {
+      "location": "Ace Vehicle Storage",
+      "type": "Outdoor storage yard",
+      "cost": "Cheapest",
+      "priority": "Low cost"
+    },
+    {
+      "location": "Hayward",
+      "details": "Mentioned but no specifics provided"
+    },
+    {
+      "location": "Monte Rio - Steve's house",
+      "cost": "Unknown (possibly free?)",
+      "contents": "Silverado, Geo Tracker",
+      "notes": "Wet storage - not ideal for Geo Tracker long term"
+    }
+  ],
+  "housing": {
+    "current": {
+      "location": "Marriott Petaluma",
+      "cost": "$130/night ($3,900/month)",
+      "endsOn": "January 14, 2026",
+      "daysRemaining": 2
+    },
+    "nextStep": {
+      "option": "Monthly Airbnb",
+      "cost": "$2,900/month",
+      "savings": "$1,000/month",
+      "deadline": "January 14, 2026"
+    },
+    "michiganOptions": {
+      "shortTerm": "Parents' condo in Harrison Township",
+      "longTerm": {
+        "option": "House in Mount Clemens",
+        "cost": "$225,000",
+        "parentSupport": "Might help pay",
+        "usage": "10% of time (storage + occasional visits)"
+      }
+    }
+  },
+  "health": {
+    "wisdomTooth": {
+      "procedure": "Wisdom tooth #1 removal",
+      "scheduledDate": "January 23, 2026",
+      "totalCost": "$1,750",
+      "insurance": "50% copay",
+      "outOfPocket": "$875",
+      "urgency": "High - urgent/infected"
+    }
+  },
+  "employment": {
+    "current": "None",
+    "newBusiness": "Starting new business (remote work capable)",
+    "interimNeeds": "Accounting, bookkeeping, small business operations support",
+    "background": "Finance degree"
+  },
+  "criticalDecisions": [
+    {
+      "id": "silverado-paint",
+      "decision": "How to handle Silverado paint damage?",
+      "options": [
+        {
+          "name": "Full repaint ($12k)",
+          "pros": ["Can sell at full $35k value", "Professional result"],
+          "cons": ["$12k upfront cost", "Net only $23k", "Time delay"],
+          "netCash": "$23,000"
+        },
+        {
+          "name": "Detailer reconditioning",
+          "pros": ["Lower cost", "Faster timeline"],
+          "cons": ["Need to get quotes", "May not achieve full value"],
+          "netCash": "TBD"
+        },
+        {
+          "name": "Sell as-is",
+          "pros": ["$0 cost", "Immediate sale possible", "Still can move vehicles first"],
+          "cons": ["$10k-15k discount on price"],
+          "netCash": "$20,000-$25,000"
+        }
+      ],
+      "recommendation": "Get detailer quotes first, then compare ROI. If detailer can't significantly improve value, sell as-is after using for move."
+    },
+    {
+      "id": "michigan-vs-california",
+      "decision": "What to move to Michigan vs. keep in California?",
+      "toMichigan": [
+        "Non-running Saab (long-term storage)",
+        "Possibly Geo Tracker (if Steve's storage becomes a problem)",
+        "Items from Santa Cruz storage (if not needed in CA)",
+        "Excess furniture and items"
+      ],
+      "keepInCalifornia": [
+        "Sprinter van",
+        "Husqvarna 701 motorcycle",
+        "Running Saab 9-3 Viggen",
+        "Tools (need for business)",
+        "Essential personal items"
+      ]
+    },
+    {
+      "id": "storage-consolidation",
+      "decision": "How to consolidate 5 storage locations?",
+      "priority": [
+        "Empty Santa Cruz first ($350/month savings)",
+        "Consolidate Santa Rosa into fewer units if possible",
+        "Use trailer to transport to Michigan",
+        "Keep only essential storage in CA"
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Stop the Bleeding",
+      "timeline": "Days 1-3 (Jan 12-14)",
+      "objective": "Reduce immediate cash burn and unlock mobility",
+      "tasks": [
+        {
+          "id": "silverado-battery",
+          "name": "Install battery in Silverado",
+          "location": "Monte Rio (Steve's house)",
+          "cost": "$150-200",
+          "priority": "CRITICAL",
+          "blocksOther": ["All vehicle movement", "Trailer usage", "Storage consolidation"],
+          "canDIY": true,
+          "status": "pending"
+        },
+        {
+          "id": "find-airbnb",
+          "name": "Secure monthly Airbnb",
+          "deadline": "January 14, 2026",
+          "cost": "$2,900/month",
+          "savings": "$1,000/month vs hotel",
+          "priority": "CRITICAL",
+          "status": "pending"
+        },
+        {
+          "id": "job-applications",
+          "name": "Start job applications",
+          "focus": "Accounting, bookkeeping, operations support",
+          "priority": "HIGH",
+          "ongoing": true,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "Consolidate & Prepare",
+      "timeline": "Week 1-2 (Jan 12-23)",
+      "objective": "Prepare vehicles and reduce storage costs",
+      "tasks": [
+        {
+          "id": "sprinter-insulation",
+          "name": "Install insulation in Sprinter van",
+          "purpose": "Make room for tools in under-bed storage",
+          "priority": "HIGH",
+          "blocksOther": ["Tool transfer", "Silverado selling prep"],
+          "status": "pending"
+        },
+        {
+          "id": "move-tools",
+          "name": "Move tools from Silverado to Sprinter",
+          "dependsOn": ["sprinter-insulation"],
+          "priority": "HIGH",
+          "reason": "Need tools for business, need to free up Silverado for selling",
+          "status": "pending"
+        },
+        {
+          "id": "empty-santa-cruz",
+          "name": "Empty Santa Cruz storage",
+          "dependsOn": ["silverado-battery"],
+          "savings": "$350/month",
+          "priority": "HIGH",
+          "destination": "Move to Michigan or consolidate to cheaper CA storage",
+          "status": "pending"
+        },
+        {
+          "id": "detailer-quotes",
+          "name": "Get detailer quotes for Silverado",
+          "purpose": "Compare to $12k body shop option",
+          "priority": "MEDIUM",
+          "status": "pending"
+        },
+        {
+          "id": "wisdom-tooth",
+          "name": "Wisdom tooth surgery",
+          "date": "January 23, 2026",
+          "cost": "$875",
+          "priority": "CRITICAL",
+          "status": "scheduled"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "Execute Michigan Move",
+      "timeline": "Week 3-4 (Late Jan)",
+      "objective": "Transport items to Michigan, utilize parents' support",
+      "tasks": [
+        {
+          "id": "decide-silverado-paint",
+          "name": "Make final decision on Silverado paint",
+          "options": ["Repaint", "Detailer", "Sell as-is"],
+          "dependsOn": ["detailer-quotes"],
+          "priority": "HIGH",
+          "status": "pending"
+        },
+        {
+          "id": "paint-silverado",
+          "name": "Get Silverado paint fixed (if chosen)",
+          "dependsOn": ["decide-silverado-paint"],
+          "conditional": true,
+          "status": "pending"
+        },
+        {
+          "id": "load-trailer",
+          "name": "Load trailer for Michigan",
+          "items": ["Non-running Saab", "Santa Cruz storage contents", "Excess items", "Possibly Geo Tracker"],
+          "dependsOn": ["silverado-battery", "empty-santa-cruz"],
+          "priority": "MEDIUM",
+          "status": "pending"
+        },
+        {
+          "id": "drive-to-michigan",
+          "name": "Drive Silverado + loaded trailer to Michigan",
+          "dependsOn": ["load-trailer"],
+          "destination": "Frank's vintage auto shop (That's Minor) + parents' condo",
+          "returnTrip": "Fly back to California",
+          "priority": "MEDIUM",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "Liquidate & Stabilize",
+      "timeline": "Month 2 (Feb)",
+      "objective": "Generate cash, reduce overhead, establish income",
+      "tasks": [
+        {
+          "id": "sell-silverado",
+          "name": "Sell Silverado",
+          "dependsOn": ["drive-to-michigan", "paint-silverado"],
+          "targetPrice": "$35,000 (or $20-25k as-is)",
+          "priority": "HIGH",
+          "status": "pending"
+        },
+        {
+          "id": "sell-trailer",
+          "name": "Sell cargo trailer",
+          "dependsOn": ["drive-to-michigan"],
+          "targetPrice": "$10,000",
+          "priority": "HIGH",
+          "status": "pending"
+        },
+        {
+          "id": "consolidate-storage",
+          "name": "Consolidate remaining CA storage",
+          "goal": "Minimize monthly costs",
+          "priority": "MEDIUM",
+          "status": "pending"
+        },
+        {
+          "id": "establish-income",
+          "name": "Secure job or business income",
+          "priority": "CRITICAL",
+          "ongoing": true,
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "financialAnalysis": {
+    "monthlyBurn": {
+      "currentHotel": "$3,900",
+      "airbnb": "$2,900",
+      "santaCruzStorage": "$350",
+      "santaRosaStorage": "$175+ (10x10 only)",
+      "aceStorage": "Low",
+      "food": "Unknown",
+      "insurances": "Unknown",
+      "total": "~$4,500+/month minimum"
+    },
+    "upcomingExpenses": {
+      "wisdomTooth": "$875 (Jan 23)",
+      "silveradoBattery": "$150-200",
+      "airbnbDeposit": "~$2,900",
+      "silveradoPaint": "$0-12,000",
+      "gasDrivingToMichigan": "~$500-800"
+    },
+    "potentialIncome": {
+      "silveradoSale": "$20,000-35,000",
+      "trailerSale": "$10,000",
+      "geoTrackerSale": "$4,000 (if sold)",
+      "total": "$30,000-49,000"
+    }
+  }
+}
